@@ -348,7 +348,7 @@ bool process_command(bool is_err)
 
     switch (cmd) {
         case SHUTDOWN: {
-            terminated = false;
+            terminated = true;
             return false;
         }
         case MANAGE: {
